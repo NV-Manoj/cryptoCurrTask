@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.myData {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.myCurrCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.myCurrCard:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 12px 33px;
+}
+
+.myCurrCard img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
